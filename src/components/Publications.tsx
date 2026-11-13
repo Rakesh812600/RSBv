@@ -26,7 +26,7 @@ export default function Publications() {
             Publications
           </h2>
           <p className="text-navy-600 dark:text-navy-300 leading-relaxed">
-            Peer-reviewed research contributions in computer vision and video anomaly detection.
+            Verified journal and conference publications will be listed here.
           </p>
         </div>
 
