@@ -88,7 +88,7 @@ export default function Contact() {
               <p className="text-xs text-navy-500 dark:text-navy-400">Professional profile</p>
             </div>
           </a>
-
+{profile.cvUrl && (\n
           <a
             href={profile.cvUrl}
             className="flex items-center gap-3 p-4 bg-white dark:bg-navy-900 border border-navy-100 dark:border-navy-800 rounded-xl hover:border-accent-200 dark:hover:border-accent-800 transition-colors group"
@@ -100,18 +100,9 @@ export default function Contact() {
               <p className="text-sm font-medium text-navy-800 dark:text-navy-200">Download CV</p>
               <p className="text-xs text-navy-500 dark:text-navy-400">Full academic CV (PDF)</p>
             </div>
-          </a>
+          </a>\n          )}
         </div>
 
-        {/* Placeholder notice */}
-        <div className="mt-8 p-4 rounded-lg bg-amber-50 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800">
-          <p className="text-xs text-amber-700 dark:text-amber-400">
-            <strong>Note:</strong> Contact links above contain placeholder URLs. Update the{' '}
-            <code className="bg-amber-100 dark:bg-amber-900/30 px-1 rounded">profile</code>{' '}
-            object in <code className="bg-amber-100 dark:bg-amber-900/30 px-1 rounded">src/data/siteData.ts</code>{' '}
-            with your actual profile URLs and email address.
-          </p>
-        </div>
       </div>
     </section>
   );
