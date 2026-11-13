@@ -73,14 +73,6 @@ export default function About() {
               </div>
             </div>
 
-            {/* Note about placeholders */}
-            <div className="mt-4 p-4 rounded-lg bg-amber-50 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800">
-              <p className="text-xs text-amber-700 dark:text-amber-400">
-                <strong>Note:</strong> This timeline contains placeholder entries. Update the{' '}
-                <code className="bg-amber-100 dark:bg-amber-900/30 px-1 rounded">src/data/siteData.ts</code>{' '}
-                file with actual academic history, achievements, and milestones.
-              </p>
-            </div>
           </div>
         </div>
       </div>
