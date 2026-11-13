@@ -133,7 +133,7 @@ export default function Publications() {
 
         {filtered.length === 0 && (
           <p className="text-center text-navy-500 dark:text-navy-400 py-8">
-            No publications found for this filter.
+            No verified publications have been added yet.
           </p>
         )}
       </div>
