@@ -1,5 +1,5 @@
 import { profile } from '../data/siteData';
-import { Mail, Github, BookOpen, UserCircle, Linkedin } from 'lucide-react';
+import { Mail, Github, BookOpen, UserCircle, Linkedin, Download } from 'lucide-react';
 
 export default function Contact() {
   return (
