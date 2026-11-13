@@ -52,14 +52,14 @@ export default function Hero() {
               >
                 <Mail size={16} />
                 Open to Collaboration
-              </a>
+              </a>{profile.cvUrl && (
               <a
                 href={profile.cvUrl}
                 className="inline-flex items-center gap-2 px-5 py-2.5 border border-navy-200 dark:border-navy-700 hover:border-navy-300 dark:hover:border-navy-600 text-navy-700 dark:text-navy-300 rounded-lg text-sm font-medium transition-colors"
               >
                 <Download size={16} />
                 Download CV
-              </a>
+              </a>\n              )}
             </div>
           </div>
 
