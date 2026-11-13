@@ -83,12 +83,12 @@ export const profile = {
   name: 'Rakesh Kumar',
   title: 'PhD Researcher',
   institution: 'AcSIR, CSIR-CEERI, Pilani, India',
-  email: 'rakesh.kumar@ceeri.ac.in', // Update with actual email
-  github: 'https://github.com/rakesh-kumar-cv', // Update with actual URL
-  scholar: 'https://scholar.google.com/', // Update with actual URL
-  orcid: 'https://orcid.org/', // Update with actual ORCID
-  linkedin: 'https://linkedin.com/', // Update with actual URL
-  cvUrl: '#', // Update with actual CV link
+  email: 'rakesh.ceeri23j@acsir.res.in',
+  github: 'https://github.com/Rakesh812600',
+  scholar: 'https://scholar.google.com/citations?user=N6fGtl8AAAAJ&hl=en',
+  orcid: 'https://orcid.org/0009-0006-6021-2031',
+  linkedin: 'https://linkedin.com/in/rakesh-singh-badal-690679132',
+  cvUrl: '', // Add an academic CV PDF URL when available.
   bio: `I am a PhD researcher at the Academy of Scientific and Innovative Research (AcSIR), working at CSIR–Central Electronics Engineering Research Institute (CSIR-CEERI), Pilani, India. My research focuses on computer vision and video understanding, with particular emphasis on weakly supervised video anomaly detection, vision-language models, and temporal representation learning.
 
 I am interested in how AI systems can identify unusual events in videos, learn meaningful temporal representations, and improve the reliability and interpretability of video understanding systems. My work spans fundamental challenges in temporal reasoning, semantic understanding, generalization, and explainable anomaly detection for security applications.`,
@@ -103,51 +103,9 @@ I am interested in how AI systems can identify unusual events in videos, learn m
 // ============================================================
 // PUBLICATIONS
 // ============================================================
-export const publications: Publication[] = [
-  {
-    id: 'ap2024',
-    title: 'Weakly Supervised Video Anomaly Detection via Temporal Semantic Alignment',
-    authors: ['Rakesh Kumar', 'Co-Author Name', 'Supervisor Name'],
-    venue: 'IEEE APSCON (Asia Pacific Conference on Sensors)',
-    year: 2024,
-    status: 'published',
-    type: 'conference',
-    doi: '', // Add DOI when available
-    paperUrl: '', // Add when available
-    pdfUrl: '', // Add when available
-    codeUrl: '', // Add when available
-    summary: 'This work proposes a temporal semantic alignment framework for weakly supervised video anomaly detection that leverages vision-language correspondence to improve anomaly localization without requiring frame-level annotations during training.',
-  },
-  {
-    id: 'indiscon2024',
-    title: 'Prototype-Based Semantic Representation Learning for Video Anomaly Detection',
-    authors: ['Rakesh Kumar', 'Co-Author Name', 'Supervisor Name'],
-    venue: 'INDISCON (Indian National Science Conference)',
-    year: 2024,
-    status: 'accepted',
-    type: 'conference',
-    doi: '',
-    paperUrl: '',
-    pdfUrl: '',
-    codeUrl: '',
-    summary: 'We introduce a prototype learning approach that captures semantic representations for distinguishing normal and anomalous events in video sequences, enabling improved detection under weak supervision.',
-  },
-  {
-    id: 'icvgip2024',
-    title: 'CLIP-Based Temporal Feature Extraction for Weakly Supervised Anomaly Detection',
-    authors: ['Rakesh Kumar', 'Co-Author Name', 'Supervisor Name'],
-    venue: 'ICVGIP (Indian Conference on Computer Vision, Graphics & Image Processing)',
-    year: 2024,
-    status: 'accepted',
-    type: 'conference',
-    doi: '',
-    paperUrl: '',
-    pdfUrl: '',
-    codeUrl: '',
-    summary: 'This paper explores the use of CLIP-based features for temporal representation learning in weakly supervised anomaly detection, demonstrating that vision-language pre-trained models provide semantically rich features that improve detection performance.',
-  },
-];
+export const publications: Publication[] = [];
 
+// Add only bibliographically verified publications to this list.
 // ============================================================
 // RESEARCH PROJECTS
 // ============================================================
@@ -396,22 +354,16 @@ These observations motivated our emphasis on reproducible evaluation protocols i
 // ============================================================
 export const timeline: TimelineEntry[] = [
   {
-    year: '2021 – Present',
-    title: 'PhD in Computer Science / Electronics Engineering',
+    year: 'January 2023 – Present',
+    title: 'PhD Research Scholar',
     institution: 'AcSIR, CSIR-CEERI, Pilani, India',
-    description: 'Research on weakly supervised video anomaly detection, vision-language models, and temporal representation learning.',
+    description: 'Research in artificial intelligence and computer vision, with a focus on video anomaly detection and video understanding.',
   },
   {
-    year: '2024',
-    title: 'Publications at APSCON, INDISCON, and ICVGIP',
-    institution: 'IEEE / INNS / IAPR',
-    description: 'Published research on temporal semantic alignment, prototype learning, and CLIP-based feature extraction for anomaly detection.',
-  },
-  {
-    year: '2019 – 2021',
-    title: "Master's Degree",
-    institution: 'University (Update with actual institution)',
-    description: 'Foundation in computer science, machine learning, and computer vision.',
+    year: '2022',
+    title: 'M.Tech (Electronics and Communication Engineering)',
+    institution: 'IFTM University',
+    description: 'Master of Technology (M.Tech) in Electronics and Communication Engineering.',
   },
 ];
 
