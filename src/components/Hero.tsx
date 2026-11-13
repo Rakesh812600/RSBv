@@ -1,4 +1,4 @@
-import { FileText, Github, FolderOpen, Mail } from 'lucide-react';
+import { FileText, Github, FolderOpen, Mail, Download } from 'lucide-react';
 import { profile } from '../data/siteData';
 
 export default function Hero() {
