@@ -1,5 +1,5 @@
 import { profile } from '../data/siteData';
-import { Mail, Github, BookOpen, UserCircle, Linkedin, Download } from 'lucide-react';
+import { Mail, Github, BookOpen, UserCircle, Linkedin } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -88,7 +88,8 @@ export default function Contact() {
               <p className="text-xs text-navy-500 dark:text-navy-400">Professional profile</p>
             </div>
           </a>
-{profile.cvUrl && (\n
+{profile.cvUrl && (
+
           <a
             href={profile.cvUrl}
             className="flex items-center gap-3 p-4 bg-white dark:bg-navy-900 border border-navy-100 dark:border-navy-800 rounded-xl hover:border-accent-200 dark:hover:border-accent-800 transition-colors group"
@@ -100,7 +101,8 @@ export default function Contact() {
               <p className="text-sm font-medium text-navy-800 dark:text-navy-200">Download CV</p>
               <p className="text-xs text-navy-500 dark:text-navy-400">Full academic CV (PDF)</p>
             </div>
-          </a>\n          )}
+          </a>
+          )}
         </div>
 
       </div>
